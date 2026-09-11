@@ -3,7 +3,6 @@ import random
 "Overarchingn class that fighters inherit from"
 
 class Fighter:
-    # A completed character class students can examine as an OOP example.
 
     def __init__(self, name):
         self.name = name
