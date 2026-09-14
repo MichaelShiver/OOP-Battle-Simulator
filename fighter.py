@@ -9,6 +9,7 @@ class Fighter:
         self.name = name
         self.health = 100
         self.attack_power = 15
+        self.mana = 30
 
     def attack(self):
         #Return a random amount of damage.

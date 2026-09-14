@@ -7,5 +7,6 @@ class Goblin(Fighter):
         super().__init__(name)
         self.health = 50
         self.attack_power = 10
+        self.mana = 0
 
 
