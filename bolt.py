@@ -6,7 +6,7 @@ class Bolt(Spell):
     damage = 5
 
     def __inti__(self):
-        super().__init__(5, False, 5)
+        super().__init__("Bolt", 5, False)
         self.cost = 5
         self.damage = 5
 

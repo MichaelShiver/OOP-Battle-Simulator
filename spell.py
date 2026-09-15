@@ -1,9 +1,14 @@
 class Spell:
 
-    def __inti__(self, cost = None, is_ritual = None, damage = None):
+    def __inti__(self, 
+             name,
+             cost = 0,
+             is_ritual = False,
+        ):
+        self.name = name
         self.cost = cost
         self.is_ritual = is_ritual
-        self.damage = damage
+        self.damage = 0
 
     def cast(self,target):
-        target.take_damage(self.damage)
+        pass
