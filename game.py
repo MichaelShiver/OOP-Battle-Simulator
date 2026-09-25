@@ -1,5 +1,5 @@
 from fighter import Fighter
-from goblin import Goblin
+from enemies.goblin import Goblin
 from hero import Hero
 from bolt import Bolt
 
