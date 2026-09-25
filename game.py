@@ -1,5 +1,5 @@
 from fighter import Fighter
-from enemies.goblin import Goblin
+from enemies import Goblin, Boss
 from hero import Hero
 from bolt import Bolt
 
@@ -24,14 +24,15 @@ def main():
     print("༼ ᓄºل͟º ༽ᓄ   ᕦ(ò_óˇ)ᕤ")
     print("The gates are opening...")
 
-    goblin = Goblin("Gribble")
+    first_goblin = Goblin("Gribble")
     other_goblin = Goblin("Scribble")
+    boss_goblin = Boss("Groglobno")
 
-    print(f"{goblin.name} enters the arena with {goblin.health} health.")
+    print(f"{first_goblin.name} enters the arena with {first_goblin.health} health.")
 
     player = Hero("The Great Mage Apilacia")
     print(f"{player.name} enters the arena with {player.health} health.")
-    battle(player, goblin)
+    battle(player, first_goblin)
     battle(player, other_goblin)
 
 
