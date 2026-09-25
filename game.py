@@ -1,4 +1,4 @@
-from goblin import Goblin
+from enemy.goblin import Goblin
 from hero import Hero
 from bolt import Bolt
 
